@@ -4,3 +4,4 @@ pytest-icdiff
 pylint
 mypy
 -r code/requirements.txt
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
